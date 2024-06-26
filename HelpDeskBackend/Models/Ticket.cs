@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace HelpDeskBackend.Models;
 
@@ -15,5 +16,6 @@ public partial class Ticket
 
     public bool? Completed { get; set; }
 
+    [JsonIgnore]
     public virtual ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
 }
