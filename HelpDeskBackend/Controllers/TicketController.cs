@@ -12,14 +12,15 @@ namespace HelpDeskBackend.Controllers
         HelpdeskDbContext DbContext = new HelpdeskDbContext();
 
         [HttpGet]
+        // api/Ticket
         public IActionResult GetAllTickets()
         {
             List<Ticket> result = DbContext.Tickets.ToList();
             return Ok(result);
 
         }
-        [HttpPost]
-        //For adding
+        [HttpPost] //For adding
+        // api/Ticket
         public IActionResult AddTicket([FromBody] Ticket newTicket)
         {
             DbContext.Tickets.Add(newTicket);
@@ -27,6 +28,7 @@ namespace HelpDeskBackend.Controllers
             return Created($"/Tickets/Api{newTicket.Id}", newTicket);
         }
         [HttpPut("{id}")]
+        // api/Ticket/{id}
         public IActionResult UpdateTicket(int id, [FromBody] Ticket targetTicket)
         {
             if (id != targetTicket.Id) { return BadRequest(); }
@@ -36,7 +38,9 @@ namespace HelpDeskBackend.Controllers
             DbContext.SaveChanges();
             return NoContent();
         }
-        [HttpDelete("{id}")] 
+
+        [HttpDelete("{id}")]
+        // api/Ticket/{id}
         public IActionResult DeleteTicket(int id)
         {
             Ticket Result = DbContext.Tickets.Find(id);

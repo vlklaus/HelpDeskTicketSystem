@@ -10,12 +10,35 @@ namespace HelpDeskBackend.Controllers
     {
         HelpdeskDbContext DbContext = new HelpdeskDbContext();
 
+        [HttpPost()]
+        // api/Favorite
+        public IActionResult AddFavorite([FromBody] Favorite t)
+        {
+            DbContext.Favorites.Add(t);
+            DbContext.SaveChanges();
+            return Created($"/api/Favorite/{t.Id}", t);
+        }
+
+
         [HttpGet]
+        // api/Favorite
         public IActionResult GetFavorites(int id)
         {
-            Ticket result = DbContext.Tickets.FirstOrDefault(t => t.Id == id);  
-            if(result == null) { return NotFound(); }
+            List<Favorite> result = DbContext.Favorites.ToList();
+            //if (result == null) { return NotFound(); }
             return Ok(result);
         }
+
+        [HttpDelete("{id}")]
+        // api/Favorite/{id}
+        public IActionResult DeleteFavorite(int id)
+        {
+            Favorite result = DbContext.Favorites.Find(id);
+            if (result == null) { return NotFound(); }
+            DbContext.Favorites.Remove(result);
+            DbContext.SaveChanges();
+            return NoContent();
+        }
+
     }
 }

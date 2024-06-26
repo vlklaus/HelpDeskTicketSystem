@@ -4522,24 +4522,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jacky\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Victoria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jacky\\projects\\HelpDeskTicketSystem\\HelpDeskBackend\\HelpDeskBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Victoria\\source\\repos\\Group Projects\\Angular Project.Help Desk Ticket System\\HelpDeskTicketSystem\\HelpDeskBackend\\HelpDeskBackend.csproj",
       "projectName": "HelpDeskBackend",
-      "projectPath": "C:\\Users\\jacky\\projects\\HelpDeskTicketSystem\\HelpDeskBackend\\HelpDeskBackend.csproj",
-      "packagesPath": "C:\\Users\\jacky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jacky\\projects\\HelpDeskTicketSystem\\HelpDeskBackend\\obj\\",
+      "projectPath": "C:\\Users\\Victoria\\source\\repos\\Group Projects\\Angular Project.Help Desk Ticket System\\HelpDeskTicketSystem\\HelpDeskBackend\\HelpDeskBackend.csproj",
+      "packagesPath": "C:\\Users\\Victoria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victoria\\source\\repos\\Group Projects\\Angular Project.Help Desk Ticket System\\HelpDeskTicketSystem\\HelpDeskBackend\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jacky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Victoria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
