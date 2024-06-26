@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9835D3BB-45C7-4230-973B-2E59A3946BC6}|HelpDeskBackend\\HelpDeskBackend.csproj|c:\\users\\cstock\\source\\repos\\groupprojectjune\\backendhelpdesk\\helpdeskbackend\\helpdeskbackend\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9835D3BB-45C7-4230-973B-2E59A3946BC6}|HelpDeskBackend\\HelpDeskBackend.csproj|solutionrelative:helpdeskbackend\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9835D3BB-45C7-4230-973B-2E59A3946BC6}|HelpDeskBackend\\HelpDeskBackend.csproj|c:\\users\\cstock\\source\\repos\\groupprojectjune\\backendhelpdesk\\helpdeskbackend\\helpdeskbackend\\models\\helpdeskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9835D3BB-45C7-4230-973B-2E59A3946BC6}|HelpDeskBackend\\HelpDeskBackend.csproj|solutionrelative:helpdeskbackend\\models\\helpdeskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9835D3BB-45C7-4230-973B-2E59A3946BC6}|HelpDeskBackend\\HelpDeskBackend.csproj|c:\\users\\cstock\\source\\repos\\groupprojectjune\\backendhelpdesk\\helpdeskbackend\\helpdeskbackend\\helpdeskbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9835D3BB-45C7-4230-973B-2E59A3946BC6}|HelpDeskBackend\\HelpDeskBackend.csproj|solutionrelative:helpdeskbackend\\helpdeskbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\HelpDeskBackend\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "HelpDeskBackend\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\HelpDeskBackend\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "HelpDeskBackend\\Controllers\\TicketController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:35:45.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HelpdeskDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\HelpDeskBackend\\Models\\HelpdeskDbContext.cs",
+              "RelativeDocumentMoniker": "HelpDeskBackend\\Models\\HelpdeskDbContext.cs",
+              "ToolTip": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\HelpDeskBackend\\Models\\HelpdeskDbContext.cs",
+              "RelativeToolTip": "HelpDeskBackend\\Models\\HelpdeskDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:34:57.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HelpDeskBackend",
+              "DocumentMoniker": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\HelpDeskBackend\\HelpDeskBackend.csproj",
+              "RelativeDocumentMoniker": "HelpDeskBackend\\HelpDeskBackend.csproj",
+              "ToolTip": "C:\\Users\\cstock\\source\\repos\\GroupProjectJune\\BackEndHelpDesk\\HelpDeskBackend\\HelpDeskBackend\\HelpDeskBackend.csproj",
+              "RelativeToolTip": "HelpDeskBackend\\HelpDeskBackend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-26T15:32:12.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
