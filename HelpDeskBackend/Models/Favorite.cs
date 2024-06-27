@@ -9,5 +9,7 @@ public partial class Favorite
 
     public int? TicketId { get; set; }
 
+    public string? UserId { get; set; }
+
     public virtual Ticket? Ticket { get; set; }
 }

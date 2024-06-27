@@ -29,6 +29,8 @@ public partial class HelpdeskDbContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Favorite__3214EC077DCDB325");
 
+            entity.Property(e => e.UserId).HasMaxLength(255);
+
             entity.HasOne(d => d.Ticket).WithMany(p => p.Favorites)
                 .HasForeignKey(d => d.TicketId)
                 .HasConstraintName("FK__Favorites__Ticke__4BAC3F29");
