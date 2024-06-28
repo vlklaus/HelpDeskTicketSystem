@@ -1,6 +1,7 @@
 ﻿using HelpDeskBackend.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace HelpDeskBackend.Controllers
 {
@@ -24,7 +25,7 @@ namespace HelpDeskBackend.Controllers
         // api/Favorite
         public IActionResult GetFavorites(int id)
         {
-            List<Favorite> result = DbContext.Favorites.ToList();
+            List<Favorite> result = DbContext.Favorites.Include(t=> t.Ticket).ToList();
             //if (result == null) { return NotFound(); }
             return Ok(result);
         }
