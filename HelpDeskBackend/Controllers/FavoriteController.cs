@@ -23,7 +23,7 @@ namespace HelpDeskBackend.Controllers
 
         [HttpGet]
         // api/Favorite
-        public IActionResult GetFavorites(int id)
+        public IActionResult GetFavorites()
         {
             List<Favorite> result = DbContext.Favorites.Include(t=> t.Ticket).ToList();
             //if (result == null) { return NotFound(); }
@@ -34,7 +34,7 @@ namespace HelpDeskBackend.Controllers
         // api/Favorite/{id}
         public IActionResult DeleteFavorite(int id)
         {
-            Favorite result = DbContext.Favorites.Find(id);
+            Favorite result = DbContext.Favorites.FirstOrDefault(f => f.TicketId == id);
             if (result == null) { return NotFound(); }
             DbContext.Favorites.Remove(result);
             DbContext.SaveChanges();
