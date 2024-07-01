@@ -17,8 +17,15 @@ namespace HelpDeskBackend.Controllers
         {
             List<Ticket> result = DbContext.Tickets.ToList();
             return Ok(result);
-
         }
+
+        [HttpGet("{id}")]
+        public  IActionResult GetById(int id)
+        {
+            Ticket result = DbContext.Tickets.Find(id);
+            return Ok(result);
+        }
+
         [HttpPost] //For adding
         // api/Ticket
         public IActionResult AddTicket([FromBody] Ticket newTicket)
